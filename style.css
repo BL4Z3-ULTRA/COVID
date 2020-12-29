@@ -1,0 +1,70 @@
+h1 {
+    color:orange;
+    margin-left: 30px;
+}
+.header{
+    background-color: lemonchiffon ;
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    border-style: inset;
+    border-color: rgb(0, 121, 190);
+    border-radius: 35px;
+}
+.header a{
+    margin: 30px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(3, 238, 167);
+}
+
+.description{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body{
+    background-color: rgb(3, 238, 167);
+}
+
+a:link{
+    color:rgb(231, 248, 80);
+}
+
+a:visited{
+    color: rgb(255, 99, 38)
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-25%,50%);
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(179, 255, 0);
+    opacity: 0;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
